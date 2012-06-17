@@ -8,3 +8,4 @@ Feature: Create projects
 		When I navigate to the new project creation page
 		And I create a new project
 		Then I should be shown the project created verification
+		And I should be on the project page for the new project
